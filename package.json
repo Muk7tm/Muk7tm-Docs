@@ -1,0 +1,15 @@
+{
+  "name": "muk7tm-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Muk7tm's Docs - documentation hub for all Muk7tm published projects.",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
