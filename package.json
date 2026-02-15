@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Muk7tm's Docs - documentation hub for all Muk7tm published projects.",
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",

@@ -53,3 +53,7 @@ Do not edit `docs/.vitepress/dist/*` directly because it is regenerated on every
 This site uses VitePress `cleanUrls: true` (links like `/projects/mk7win`).
 VitePress still outputs `.html` files in `dist` (like `/projects/mk7win.html`), so
 `netlify.toml` includes rewrite rules to make clean URLs work on Netlify.
+
+## License
+
+See `LICENSE` (restricted: no rebranding, no repurposing; forks are allowed for improvements and must stay on-topic).

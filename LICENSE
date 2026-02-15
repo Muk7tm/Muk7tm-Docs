@@ -1,0 +1,48 @@
+Muk7tm's Docs License (No Rebrand / No Repurpose)
+Version 1.0 - 2026-02-15
+
+Copyright (c) 2026 Muk7tm
+
+This is a source-available license. It is not an OSI "open source" license.
+
+1. Definitions
+   - "Project" means Muk7tm's Docs: this repository, its documentation, theme, and build files.
+   - "You" means any person or entity using the Project.
+
+2. Permission
+   You may:
+   - View, use, and run the Project for personal or internal use.
+   - Fork the repository for the purpose of contributing improvements back upstream.
+   - Publish your fork ONLY if it follows Section 3 (Restrictions) and keeps this LICENSE.
+
+3. Restrictions (what you may not do)
+   3.1 No rebranding / name changes
+       You may not change the Project name ("Muk7tm's Docs"), remove Muk7tm attribution, or present
+       a modified version as your own documentation brand.
+
+   3.2 No repurposing / subject changes
+       You may not repurpose the Project to document a different person, organization, or unrelated
+       set of projects. The Project must remain a documentation hub for Muk7tm's projects.
+
+   3.3 Only improvements (no destructive edits)
+       You may not remove large parts of the docs, change the meaning/subject, or intentionally
+       degrade the content. Changes must be additive or corrective (fixes, updates, UI improvements,
+       clearer wording, better structure) while keeping the same purpose.
+
+4. Distribution Requirements
+   If you publish a fork or derivative:
+   - Keep the Project name and attribution to Muk7tm intact.
+   - Keep this LICENSE file.
+   - Clearly label it as an "Unofficial fork" and link back to the original repository.
+
+5. No Trademark Rights
+   Except for the limited permission above to keep the original name for allowed forks, this license
+   does not grant trademark rights to any names or branding associated with Muk7tm.
+
+6. Termination
+   If you violate this license, your permissions end automatically.
+
+7. Disclaimer
+   THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS OR
+   COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
