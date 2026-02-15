@@ -54,6 +54,7 @@
 
 html {
   scrollbar-gutter: stable;
+  overflow-y: scroll;
 }
 
 body {
@@ -153,6 +154,18 @@ body {
 .vp-doc h2,
 .vp-doc h3 {
   letter-spacing: -0.01em;
+}
+
+.vp-doc {
+  position: relative;
+}
+
+.vp-doc .header-anchor {
+  margin-left: -1.05em;
+}
+
+.VPLocalNavOutlineDropdown {
+  --vp-vh: 0px;
 }
 
 .vp-doc h1 {

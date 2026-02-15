@@ -3,7 +3,6 @@
 Documentation website for Muk7tm's published projects:
 
 - Mk7WIN
-- MUKHTM
 - join-voice-bot
 - MWD (Muk7tm's Windows Debloater)
 - Windows-ISO-Files

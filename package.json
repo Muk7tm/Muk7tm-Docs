@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "clean": "node scripts/clean.mjs",
+    "build": "npm run clean && vitepress build docs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {

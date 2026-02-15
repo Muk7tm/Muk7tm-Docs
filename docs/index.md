@@ -9,7 +9,6 @@ Documentation hub for all currently published Muk7tm projects.
 ## Published Projects
 
 - [Mk7WIN](/projects/mk7win)
-- [MUKHTM](/projects/mukhtm)
 - [join-voice-bot](/projects/join-voice-bot)
 - [MWD (Muk7tm's Windows Debloater)](/projects/mwd)
 - [Windows-ISO-Files](/projects/windows-iso-files)
@@ -27,7 +26,6 @@ Documentation hub for all currently published Muk7tm projects.
 These docs are written from:
 
 - `sources/readmes/mk7win.README.md`
-- `sources/readmes/mukhtm.README.md`
 - `sources/readmes/join-voice-bot.README.md`
 - `sources/readmes/mwd.README.md`
 - `sources/readmes/windows-iso-files.README.md`
