@@ -1,6 +1,34 @@
-﻿[build]
+[build]
   command = "npm run build"
   publish = "docs/.vitepress/dist"
 
 [build.environment]
   NODE_VERSION = "20"
+
+# VitePress with `cleanUrls: true` generates `.html` files but links without `.html`.
+# These rewrites make Netlify serve clean URLs (e.g. `/projects/mk7win` -> `/projects/mk7win.html`).
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects"
+  to = "/projects/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects/"
+  to = "/projects/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
+

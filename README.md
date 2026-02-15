@@ -47,3 +47,9 @@ Do not edit `docs/.vitepress/dist/*` directly because it is regenerated on every
 3. Publish directory: `docs/.vitepress/dist`
 
 `netlify.toml` already contains these settings.
+
+### Clean URLs on Netlify
+
+This site uses VitePress `cleanUrls: true` (links like `/projects/mk7win`).
+VitePress still outputs `.html` files in `dist` (like `/projects/mk7win.html`), so
+`netlify.toml` includes rewrite rules to make clean URLs work on Netlify.
