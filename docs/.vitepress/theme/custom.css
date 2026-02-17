@@ -75,14 +75,15 @@ body {
 }
 
 .VPNavBar {
-  border-bottom: 1px solid var(--vp-c-divider);
+  border-bottom: 0 !important;
   background-color: var(--vp-nav-bg-color);
   -webkit-backdrop-filter: blur(10px) saturate(130%);
   backdrop-filter: blur(10px) saturate(130%);
 }
 
 .VPNavBar .divider-line {
-  background-color: var(--vp-c-divider);
+  display: block !important;
+  background-color: var(--vp-c-divider) !important;
 }
 
 .VPSidebar {
@@ -93,6 +94,15 @@ body {
 .VPNavBarTitle .title {
   letter-spacing: -0.01em;
   font-weight: 700;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+.VPNavBarTitle .title::before,
+.VPNavBarTitle .title::after {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
 @media (max-width: 767px) {
@@ -136,10 +146,14 @@ body {
   .Layout .VPNavBar.has-sidebar .title {
     position: static !important;
     width: auto !important;
-    height: calc(var(--vp-nav-height) - 1px);
+    height: var(--vp-nav-height);
     padding: 0 !important;
     background: transparent !important;
     border-right: 0 !important;
+  }
+
+  .VPNavBarTitle.has-sidebar .title {
+    border-bottom: 0 !important;
   }
 
   .Layout .VPNavBar.has-sidebar .content {
