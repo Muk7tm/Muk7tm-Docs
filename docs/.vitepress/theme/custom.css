@@ -86,6 +86,17 @@ body {
   min-width: 240px;
 }
 
+@media (min-width: 768px) {
+  .VPNavBarSearch .DocSearch-Button .DocSearch-Button-Keys {
+    margin-left: auto;
+    padding-left: 10px;
+  }
+
+  .VPNavBarSearch .DocSearch-Button .DocSearch-Button-Key:last-child {
+    margin-right: 0;
+  }
+}
+
 @media (min-width: 960px) {
   .Layout .VPNavBar.has-sidebar .wrapper {
     padding: 0 12px !important;
