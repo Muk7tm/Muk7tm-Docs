@@ -82,11 +82,25 @@ body {
   font-weight: 700;
 }
 
-.VPNavBarSearch .DocSearch-Button {
-  min-width: 240px;
+@media (max-width: 767px) {
+  .VPNavBarSearch .DocSearch-Button {
+    width: 40px;
+    min-width: 40px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .VPNavBarSearch .DocSearch-Button .DocSearch-Button-Container {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) {
+  .VPNavBarSearch .DocSearch-Button {
+    min-width: 240px;
+  }
+
   .VPNavBarSearch .DocSearch-Button .DocSearch-Button-Keys {
     margin-left: auto;
     padding-left: 10px;
