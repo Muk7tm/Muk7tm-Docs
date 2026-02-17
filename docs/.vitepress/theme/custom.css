@@ -52,6 +52,19 @@
   box-sizing: border-box;
 }
 
+/* Disable default mobile blue tap highlight on interactive controls. */
+a,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
 html {
   scrollbar-gutter: stable;
   overflow-y: scroll;
